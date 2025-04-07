@@ -9,3 +9,36 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.container{
+    justify-items: center;
+}
+
+.palo{
+    display: flex;
+    background-color: black;
+    height: 220px;
+    width: 20px;
+}
+.semaforo {
+    background-color: black;
+    height: 500px;
+    width: 280px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column; /* Organiza las luces en columna */
+    justify-content: space-around; /* Espacio uniforme entre las luces */
+    align-items: center; /* Centra las luces horizontalmente */
+  }
+  
+  .luces {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%; /* Hace que las luces sean redondas */
+    background-color: red; /* Color de ejemplo, puedes cambiarlo dinámicamente */
+  }
+
+  .brillo{
+    box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.8); /* Brillo amarillo */
+  }
+
