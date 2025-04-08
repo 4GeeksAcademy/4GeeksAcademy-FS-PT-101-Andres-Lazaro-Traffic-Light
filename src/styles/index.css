@@ -22,7 +22,6 @@
 }
 .semaforo {
     background-color: black;
-    height: 500px;
     width: 280px;
     border-radius: 10px;
     display: flex;
@@ -36,6 +35,8 @@
     height: 160px;
     border-radius: 50%; /* Hace que las luces sean redondas */
     background-color: red; /* Color de ejemplo, puedes cambiarlo dinámicamente */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
   .brillo{
